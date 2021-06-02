@@ -1,0 +1,51 @@
+.Content {
+    display: flex;
+    justify-content: flex-start;
+} 
+
+.Content .Sub-menu {
+    flex: 1;
+}
+
+.Content .Sub-menu .Title {
+    margin-top: 30px;
+}
+
+.Content .Sub-menu .Search-mode {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Content .Main {
+    flex: 3;
+    text-align: justify;
+}
+
+.Content .Main .Contents-title {
+    margin: 20px;
+}
+
+.Content .Main .Contents-title .Current {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+}
+
+.Current-state {
+    color: red;
+    margin-left: 0.5em;
+}
+
+.Current-rank {
+    margin-left: 0.25em;
+}
+
+.Content .Main .Contents-menubar {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.Content .Main .Title-header {
+    margin-right: auto;
+}

@@ -1,0 +1,25 @@
+.Content {
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+} 
+
+.Content .Sub-menu {
+    flex: 1;
+}
+
+.Content .Main {
+    flex: 3;
+}
+
+.Content .Main .Main-title {
+    margin-top: 3em;
+}
+
+.Content .Main .Naver-products {
+    margin-top: 3em;
+}
+
+.Content .Main .Coupang-products {
+    margin-top: 2em;
+}

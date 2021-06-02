@@ -1,0 +1,31 @@
+.Content {
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+} 
+
+.Content .Sub-menu {
+    flex: 1;
+}
+
+.Content .Sub-menu .Search-box {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.Content .Main {
+    flex: 3;
+}
+
+.Content .Main .Statistic_result {
+    margin-left: 1em;
+    margin-bottom: 2em;
+}
+
+.Content .Main .Releated-word {
+    margin-top: 2em;
+}
+
+.Content .Main .Releated-keyword {
+    margin-top: 2em;
+}
