@@ -1,0 +1,11 @@
+.WelcomeContent-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3em;
+}
+
+.WelcomeContent-content .WelcomeContent-inputbox {
+    width: 50%;
+}

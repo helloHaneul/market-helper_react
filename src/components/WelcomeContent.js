@@ -5,9 +5,9 @@ import './WelcomeContent.css';
 class WelcomeContent extends Component {
     render() {
         return(
-            <div className="Content">
+            <div className="WelcomeContent-content">
                 <h1>Welcome Market Helper!</h1>
-                <div className="Input-box">
+                <div className="WelcomeContent-inputbox">
                     <Input fluid size='huge' placeholder='분석할 상품 키워드를 입력하세요' action={{ icon: 'search' }} />
                 </div>
             </div>
