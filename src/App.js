@@ -37,7 +37,10 @@ class App extends Component {
     return (
       <div className="App">
         <header>
-          <div className="Logo">로고</div>
+          <div className="Logo" onClick={function(e){
+            e.preventDefault();
+            this.setState({mode:'welcome'});
+          }.bind(this)}>로고</div>
           <div className="Header-menu">
             <div className="Login">로그인</div>
             <div className="Join">회원가입</div>
